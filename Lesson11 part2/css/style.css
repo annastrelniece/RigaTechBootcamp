@@ -1,0 +1,50 @@
+.container{
+    background-color:pink;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+}
+.item {
+    border: 1px black solid;
+    background-color: salmon;
+    min-width: 300px;
+    flex-basis: 0px;
+    
+}
+.item-1 {
+    height: 100px;
+    order: 2;
+    flex-grow: 2;
+
+}
+.item-2 {
+    height: 200px;
+    order: 3;
+    flex-grow: 1;
+}
+.item-3 {
+    height: 50px;
+    order: 1;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+.list {
+    padding-left: 0px;
+    list-style: none;
+}
+.list-item {
+    height: 30px;
+    display: flex;
+    line-height: 30px;
+    justify-content:space-between;
+}
+.left-list-item {
+
+}
+.right-list-item {
+    width: 30px;
+    background-color: red;
+    text-align: center;
+}

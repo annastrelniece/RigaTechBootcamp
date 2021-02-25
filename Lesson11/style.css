@@ -1,0 +1,16 @@
+    .first-part {
+    background-color: rgb(218, 216, 216);
+    }
+    b{
+    color: grey;
+    font-size: 55px;
+    font-family: sans-serif
+}
+.checkbox-list {
+    background-color: white;
+    background-repeat: repeat-x;
+}
+.second-part{
+    background-color: yellow;
+    border: yellow 1px solid;
+}
