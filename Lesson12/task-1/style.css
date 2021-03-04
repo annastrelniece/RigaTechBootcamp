@@ -1,0 +1,22 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    
+    display: flex;
+    flex-grow: 1;
+    justify-content: stretch;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.item {
+    background: beige;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px 10px;
+    flex-basis: 28%;
+    padding: 10px;
+
+}
