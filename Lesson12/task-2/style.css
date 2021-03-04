@@ -1,0 +1,48 @@
+* {
+    background: rgb(177, 175, 175);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+a {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: green;
+    font-size: medium;
+}
+.container {
+    font-size: 10px ;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    line-height: 2;
+
+}
+.ten-facts {
+    list-style: symbols(.);
+    font-size: 10px;
+    
+}
+p{
+    font-size: 15px;
+    margin-left: 40px;
+}
+.signature {
+    font-size: 10px; 
+    margin-left: 40px;
+}
+.link {
+    font-size: smaller;  
+    color: purple;
+    margin-left: 0; 
+}
+span {
+    color:blue;
+    font-style: italic;
+}
