@@ -1,0 +1,56 @@
+* {
+    background: beige;
+   
+}
+header {
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.sign {
+    font-size: x-large;
+}
+.login-form {
+    margin: 0px;
+    border: rgb(184, 173, 173) 1px solid;
+    border-radius: 5px;
+    color: rgb(184, 173, 173);
+    padding: 0 20px;
+    line-height: 40px;
+    width: 200px;
+}
+
+.login-form {
+    background-color: white;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.login-form-password {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.checkbox {
+    font-size: smaller;
+}
+.submit {
+    background: blue;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 100px;
+    font-size: medium;
+}
+.signature {
+    font-size: smaller;
+}
