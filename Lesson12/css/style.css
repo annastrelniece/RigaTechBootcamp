@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #fafafa;
+}
+
+h1, h2 {
+    color: #999;
+}
+
+.tasks-list-wrapper {
+    margin-top: 20px;
+}
+
+.tasks-list {
+    list-style: none;
+    padding: 0;
+}
+/* .tasks-list-item {
+    border: 1px #ccc solid;
+    border-bottom-width: 0px;
+    background: white;
+    display: flex;
+    line-height: 30px;
+    justify-content: space-between;
+}
+.tasks-list-item:last-child {
+    border-bottom-width: 1px;
+}
+.tasks-list-item:nth-child(even) {
+    background: #bbb;
+}
+.list-item-right-side a{
+    background: red;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.list-item-right-side a:hover {
+    background: pink;
+    text-decoration: underline;
+} */
+
+
+.tasks-list-item {
+    border: 1px #ccc solid;
+    border-bottom-width: 0px;
+    background: white;
+    line-height: 30px;
+    overflow: hidden;
+}
+.tasks-list-item:last-child {
+    border-bottom-width: 1px;
+}
+.tasks-list-item:nth-child(even) {
+    background: #bbb;
+}
+.list-item-right-side a{
+    background: red;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.list-item-right-side a:hover {
+    background: pink;
+    text-decoration: underline;
+}
+.list-item-left-side {
+    float: left;
+}
+.list-item-right-side {
+    float:right;
+}
+.add-new-task-form-wrapper {
+    background: yellow;
+    padding: 30px;
+}
+.submit-btn {
+    color: white;
+    background: green;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 50px;
+}
