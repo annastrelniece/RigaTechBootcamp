@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+header {
+    background: url('../images/343735_youwall-amazing-beach-wallpapers-wallpaper-wallpapers-free_1920x1080_h.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.header-content {
+    padding-top: 160px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color:rgb(36, 144, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   h2 {
+       font-size: medium;
+   }
+.submit-btn {
+        color: rgb(36, 144, 148);
+        background: transparent;
+        border: 1px rgb(36, 144, 148) solid;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 10px 20px;
+}
+.container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: left;
+    padding: 0;  
+
+}
+.item1 {
+    background-color: teal;
+    text-align: center;
+    text-decoration: white;
+    padding: 10px;
+    color: white;
+}
+.item2 {
+    background-color: white;
+    padding: 10px;
+    color: teal;
+}
+.item3 {
+    background: teal;
+    padding: 10px;
+    justify-content: space-around;
+    color: white;
+}
+.item4 {
+    background: white;
+    padding: 10px;
+    color: teal;
+}
