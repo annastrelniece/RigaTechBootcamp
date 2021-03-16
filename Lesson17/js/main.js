@@ -215,3 +215,46 @@ var num3 = 5;
 if (num3 +5 > 9) {
     console.log('the sum is > 9');
 }
+
+let number3 = 1;
+number3 += 4;
+number3 -= 1;
+number3 /= 2;
+console.log(number3);
+
+let someWord = 'Hello';
+someWord += ' World';
+console.log(someWord);
+
+let number4 = 10;
+number4++; //increment pieaugums
+++number4;
+
+number4--; //decrement
+--number4;
+
+let number5 = 10;
+console.log('Value of number5 is', number5) //10
+const output1 = number5++;
+console.log('output1 of number5 is', output1); //10
+console.log('Value of number5 is', number5); //11
+const output2 = ++number5;
+console.log('output2 of number5 is', output2); //12
+console.log('Value of number5 is', number5); //12
+
+
+let number5 = 10;
+console.log('Value of number5 is', number5); // 10
+const output1 = number5++;
+console.log('output1 of number5 is', output1); // 10
+console.log('Value of number5 is', number5); // 11
+const output2 = ++number5;
+console.log('Value of output2 is', output2); // 12
+console.log('Value of number5 is', number5); // 12
+
+let number6 = 10;
+console.log('number6 is', number6); // 10
+console.log('number6 is', number6++); // output 10, value is 11
+console.log('number6 is', number6); // 11
+console.log('number6 is', ++number6); // output 12, value is 12
+console.log('number5 is', number6); // 12
