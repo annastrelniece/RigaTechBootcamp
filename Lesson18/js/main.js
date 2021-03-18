@@ -120,3 +120,87 @@ while (number6 >= 50) {
     }
     number6 -= 7;
 }
+
+console.log('-----------');
+
+for (let i = 0; i<= 100; i++) { //other way
+    if(i % 2 == 0 && i % 3 ==0) {
+        console.log ('Fizz Buzz'); 
+    } else if (i % 2 == 0) {
+        console.log ('Fizz');
+    } else if (i % 3 == 0) {
+        console.log ('Buzz'); 
+    } else {
+        console.log (i);
+    }
+}
+
+console.log('-----------');
+
+for (let i = 0; i <= 100; i++) { // other way
+    let output = '';
+    if (i % 2 == 0) {
+        output += 'Fizz ';
+    }
+    if (i % 3 == 0) {
+        output += 'Bazz ';
+    }
+    if (!output) {
+        output = i;
+    }
+
+    console.log(output);
+}
+
+console.log('-----------');
+
+for (let i = 1000; i>= 50; i-=7) { // other way
+    if (i % 2 === 0) {
+        console.log (i, ' is even');
+    } else {
+        console.log (i, 'is odd');
+    }
+}
+
+
+//for...in
+// for...of
+//
+//const cars = ['vaz', 'zaz', 'gaz', 'maz', 'uaz', 'bmw'];
+//for (var i= 0; i < cars.length; i++) {
+    //console.log(cars [i]);
+    //debugger;
+ //   cars [i] += ' is a nice car!';//calculate + and get a result =
+////}
+//console.log(cars);
+
+const carss = ['vaz', 'zaz', 'gaz', 'maz', 'uaz', 'kia'];
+
+for (let carIndex in carss) {
+    console.log (carss[carIndex]);
+}
+for (let car of carss) { //sugar syntax for below
+    car = 'baz';
+    console.log(car);
+}
+for (let i= 0; i < cars.length; i++) {
+    let car = carss [i];
+    console.log(car);
+}
+console.log(carss);
+console.log('-----------');
+for (let i = 0; i <100; i ++) {
+    if (i > 10) { //one way
+    console.log (i);
+    }
+}
+console.log('-----------');
+for (let i = 0; i <100; i ++) {
+    if (i < 10) { 
+        continue;
+    }
+    if (i > 30) { 
+        break; //stops loop at some point, ex, 30
+    }
+    console.log (i);
+}
