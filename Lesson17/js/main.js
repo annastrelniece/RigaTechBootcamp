@@ -243,14 +243,14 @@ console.log('output2 of number5 is', output2); //12
 console.log('Value of number5 is', number5); //12
 
 
-let number5 = 10;
-console.log('Value of number5 is', number5); // 10
-const output1 = number5++;
-console.log('output1 of number5 is', output1); // 10
-console.log('Value of number5 is', number5); // 11
-const output2 = ++number5;
-console.log('Value of output2 is', output2); // 12
-console.log('Value of number5 is', number5); // 12
+//let number5 = 10;
+//console.log('Value of number5 is', number5); // 10
+//const output1 = number5++;
+//console.log('output1 of number5 is', output1); // 10
+//console.log('Value of number5 is', number5); // 11
+//const output2 = ++number5;
+//console.log('Value of output2 is', output2); // 12
+//console.log('Value of number5 is', number5); // 12
 
 let number6 = 10;
 console.log('number6 is', number6); // 10
