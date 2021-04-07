@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tbody id="table-body">
+            <tr>
+                <td>Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 1</td>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3 Cell 1</td>
+                <td>Row 3 Cell 2</td>
+                <td>Row 3 Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <form onsubmit="submitForm(event)">
+            <div>
+                <label for="pick-row">Pick row:</label>
+                <select id="pick-row">
+                    <option value="1">Row 1</option>
+                    <option value="2">Row 2</option>
+                    <option value="3">Row 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="pick-col">Pick col:</label>
+                <select id="pick-col">
+                    <option value="1">Col 1</option>
+                    <option value="2">Col 2</option>
+                    <option value="3">Col 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="new-cell-value">New value:</label>
+                <input type="text" id="new-cell-value">
+            </div>
+            <div>
+                <button type="submit">Change value</button>
+            </div>
+        </form>
+    </div>
+    <script src="../task 6/main.js"></script>
+</body>
+</html>

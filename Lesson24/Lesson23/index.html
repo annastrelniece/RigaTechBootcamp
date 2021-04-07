@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .completed span {
+            text-decoration: line-through;
+        }
+        #tasks-list li button {
+            display: none;
+        }
+        #tasks-list li.completed button {
+            display: inline;
+        }
+        #tasks-list li span {
+            cursor: pointer;;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="tasks-list">
+        <li>
+            <span onclick="toggleCompleteState(this)">Buy milk</span> 
+        <button onclick="deleteTask(this)">X</button>
+        </li>
+        <li>
+            <span onclick="toggleCompleteState(this)">Learn JS</span> 
+        <button onclick="deleteTask(this)">X</button>
+        </li>
+        <li class="completed">
+            <span onclick="toggleCompleteState(this)">Be awesome</span> 
+        <button onclick="deleteTask(this)">X</button>
+        </li>
+    </ul>
+    <div>
+        <button onclick="markAllAsCompleted()">Mark all as completed</button>
+        <button onclick="markAllAsNotCompleted()">Mark all as not completed</button>
+    </div>
+    <div>
+        <hr>
+        <h4>Add new todo</h4>
+    <form onsubmit="submitForm(event)">
+        <div>
+            <label for="new-task-name">Task:</label>
+            <input type="text" id="new-task-name">
+        </div>
+        <div>
+            <label for="is-completed-select">Is completed:</label>
+            <select id="is-completed-select">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+        </div>
+        <div>
+            <button>Add task</button>
+        </div>
+    </div>
+    </form>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>

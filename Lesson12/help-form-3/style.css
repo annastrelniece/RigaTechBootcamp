@@ -1,0 +1,86 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 58);
+    background-image: url(../images/Collaboration.jpg);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+.heading {
+    padding: 30px;
+    text-align: center;
+}
+
+.header {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.under-header {
+    font-style: italic;
+}
+
+.survey {
+    padding: 30px;
+    background-color: rgb(9, 9, 32, 0.7);
+}
+
+.survey div {
+    padding: 7px;
+}
+
+.survey input {
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    color: rgb(15, 14, 14);
+}
+
+.survey select {
+    width: 100%;
+    color: gray;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.survey textarea {
+    width: 100%;
+    line-height: 30px;
+    color: rgb(15, 14, 14);
+}
+
+.survey select option {
+    color: rgb(15, 14, 14);
+}
+
+.small-container {
+    display: flex;
+    justify-items: left;
+}
+
+.small-container input {
+    width: unset;
+    height: unset;
+}
+
+span {
+    font-size: small;
+}
+
+.submit-btn input {
+    background-color: rgb(55, 175, 101);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: unset;
+    color: white;
+}
